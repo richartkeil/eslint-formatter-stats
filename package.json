@@ -1,5 +1,5 @@
 {
-  "name": "eslint-codeframe-stats",
+  "name": "eslint-formatter-stats",
   "version": "0.1.0",
   "description": "Visualize ESLint errors and warnings for large projects.",
   "main": "index.js",
