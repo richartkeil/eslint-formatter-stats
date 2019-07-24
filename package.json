@@ -4,7 +4,7 @@
   "description": "Visualize ESLint errors and warnings for large projects.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --format codeframe test/*.js"
+    "test": "eslint --format ./index.js test/*.js"
   },
   "keywords": [
     "eslint",
@@ -17,8 +17,9 @@
     "errors"
   ],
   "author": "Richard Keil",
-  "license": "ISC",
-  "dev-dependencies": {
-    "eslint": "^6.1.0"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^6.1.0",
+    "eslint-stats": "^1.0.1"
   }
 }
