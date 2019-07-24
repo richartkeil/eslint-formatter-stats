@@ -4,7 +4,7 @@
   "description": "Visualize ESLint errors and warnings for large projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint --format codeframe test/*.js"
   },
   "keywords": [
     "eslint",
@@ -17,5 +17,8 @@
     "errors"
   ],
   "author": "Richard Keil",
-  "license": "ISC"
+  "license": "ISC",
+  "dev-dependencies": {
+    "eslint": "^6.1.0"
+  }
 }
